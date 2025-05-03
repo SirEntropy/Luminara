@@ -1,0 +1,8 @@
+Metric,Value
+Accuracy,0.72
+Precision,0.6901408450704225
+Recall,0.7101449275362319
+F1 Score,0.7
+AUC (if applicable),0.7504025764895331
+Training Time (s),0.37409210205078125
+Avg Inference Time (ms/sample),0.004819234212239584

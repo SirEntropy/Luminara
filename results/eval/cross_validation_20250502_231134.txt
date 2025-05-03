@@ -1,0 +1,14 @@
+Cross-Validation Results
+=======================
+
+Average metrics across folds:
+accuracy_mean: 0.7314
+accuracy_std: 0.0184
+precision_mean: nan
+precision_std: nan
+recall_mean: nan
+recall_std: nan
+f1_mean: nan
+f1_std: nan
+auc_mean: nan
+auc_std: nan

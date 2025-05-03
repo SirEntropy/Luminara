@@ -1,0 +1,20 @@
+{
+  "train_samples": 630,
+  "val_samples": 70,
+  "train_accuracy": 0.726984126984127,
+  "val_accuracy": 0.7714285714285715,
+  "cardinalities": {
+    "M": 3,
+    "C": 3,
+    "G": 3,
+    "RP": 3,
+    "B": 3,
+    "DC": 3,
+    "DT": 3,
+    "FC": 3,
+    "CAC": 3,
+    "R": 3,
+    "ATA": 3,
+    "Y": 2
+  }
+}

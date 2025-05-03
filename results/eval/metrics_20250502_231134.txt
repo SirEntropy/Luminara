@@ -1,0 +1,13 @@
+Model Evaluation Metrics
+=======================
+
+Timestamp: 20250502_231134
+Model file: investment_crf_model_20250502_231134.pkl
+
+Overall Metrics:
+accuracy: 0.6600
+precision: 0.6500
+recall: 0.5652
+f1_score: 0.6047
+specificity: 0.7407
+auc: 0.7148

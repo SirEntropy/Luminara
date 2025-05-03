@@ -1,0 +1,32 @@
+# Luminara CRF Model Configuration
+
+# Data splitting parameters
+test_size: 0.2
+random_state: 42
+
+# Training parameters
+learning_rate: 0.01
+max_iterations: 100
+convergence_tol: 1e-5
+l2_regularization: 0.1
+
+# Inference parameters
+inference_method: "bp"  # Options: "bp" (belief propagation), "map" (maximum a posteriori)
+
+# Evaluation parameters
+run_cv: true
+cv_folds: 5
+
+# Model structure - cliques
+cliques:
+  market_clique: ["M", "C", "G", "RP"]
+  development_clique: ["B", "DC", "DT", "FC"]
+  customer_clique: ["CAC", "R", "ATA"]
+  bridge_cliques: 
+    - ["RP", "Y"]
+    - ["DC", "Y"]
+    - ["R", "Y"]
+
+# Visualization settings
+plot_figsize: [10, 8]
+plot_dpi: 300

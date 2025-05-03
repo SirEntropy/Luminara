@@ -1,0 +1,49 @@
+2025-05-02 23:08:58,967 - luminara.training - INFO - Starting model training and evaluation
+2025-05-02 23:08:58,968 - luminara.training - INFO - Loading training data from /Users/lianghaochen/Luminara/data/synthetic/train.csv
+2025-05-02 23:08:58,970 - luminara.training - INFO - Loaded 1400 training records
+2025-05-02 23:08:58,970 - luminara.training - INFO - Loading test data from /Users/lianghaochen/Luminara/data/synthetic/test.csv
+2025-05-02 23:08:58,971 - luminara.training - INFO - Loaded 300 test records
+2025-05-02 23:08:58,972 - luminara.training - INFO - Variable cardinalities: {'M': 3, 'C': 3, 'G': 3, 'RP': 3, 'B': 3, 'DC': 3, 'DT': 3, 'FC': 3, 'CAC': 3, 'R': 3, 'ATA': 3, 'Y': 2}
+2025-05-02 23:08:58,972 - luminara.training - INFO - Using predefined train/test split: 1400 training samples, 300 test samples
+2025-05-02 23:08:58,972 - luminara.training - INFO - Training CRF model
+2025-05-02 23:09:14,234 - luminara.training - INFO - Saving model to /Users/lianghaochen/Luminara/results/models/investment_crf_model_20250502_230858.pkl
+2025-05-02 23:09:14,235 - luminara.training - INFO - Performing basic model evaluation
+2025-05-02 23:09:14,240 - luminara.training - INFO - Model accuracy on test data: 0.9167
+2025-05-02 23:09:14,249 - luminara.training - INFO - Generating evaluation plots
+2025-05-02 23:09:14,386 - luminara.training - INFO - Calculating feature importance
+2025-05-02 23:09:14,386 - luminara.training - INFO - Calculating feature importance with clique awareness
+2025-05-02 23:09:14,391 - luminara.training - INFO - Baseline accuracy: 0.9167
+2025-05-02 23:09:14,395 - luminara.training - INFO - Calculating importance for feature FC
+2025-05-02 23:09:14,402 - luminara.training - INFO -   Importance: 0.0000
+2025-05-02 23:09:14,402 - luminara.training - INFO - Calculating importance for feature C
+2025-05-02 23:09:14,410 - luminara.training - INFO -   Importance: 0.0000
+2025-05-02 23:09:14,410 - luminara.training - INFO - Calculating importance for feature R
+2025-05-02 23:09:14,417 - luminara.training - INFO -   Importance: 0.1667
+2025-05-02 23:09:14,418 - luminara.training - INFO - Calculating importance for feature ATA
+2025-05-02 23:09:14,425 - luminara.training - INFO -   Importance: 0.0000
+2025-05-02 23:09:14,425 - luminara.training - INFO - Calculating importance for feature G
+2025-05-02 23:09:14,432 - luminara.training - INFO -   Importance: 0.0100
+2025-05-02 23:09:14,432 - luminara.training - INFO - Calculating importance for feature RP
+2025-05-02 23:09:14,439 - luminara.training - INFO -   Importance: 0.1667
+2025-05-02 23:09:14,439 - luminara.training - INFO - Calculating importance for feature B
+2025-05-02 23:09:14,447 - luminara.training - INFO -   Importance: 0.0100
+2025-05-02 23:09:14,447 - luminara.training - INFO - Calculating importance for feature DC
+2025-05-02 23:09:14,454 - luminara.training - INFO -   Importance: 0.2089
+2025-05-02 23:09:14,454 - luminara.training - INFO - Calculating importance for feature CAC
+2025-05-02 23:09:14,462 - luminara.training - INFO -   Importance: 0.0100
+2025-05-02 23:09:14,462 - luminara.training - INFO - Calculating importance for feature M
+2025-05-02 23:09:14,469 - luminara.training - INFO -   Importance: 0.0100
+2025-05-02 23:09:14,469 - luminara.training - INFO - Calculating importance for feature DT
+2025-05-02 23:09:14,476 - luminara.training - INFO -   Importance: 0.0178
+2025-05-02 23:09:14,617 - luminara.training - INFO - Performing cross-validation
+2025-05-02 23:09:14,618 - luminara.training - INFO - Training fold 1/5
+2025-05-02 23:09:26,639 - luminara.training - INFO - Fold 1 accuracy: 0.9536
+2025-05-02 23:09:26,639 - luminara.training - INFO - Training fold 2/5
+2025-05-02 23:09:38,613 - luminara.training - INFO - Fold 2 accuracy: 0.9464
+2025-05-02 23:09:38,613 - luminara.training - INFO - Training fold 3/5
+2025-05-02 23:09:51,252 - luminara.training - INFO - Fold 3 accuracy: 0.9357
+2025-05-02 23:09:51,252 - luminara.training - INFO - Training fold 4/5
+2025-05-02 23:10:04,186 - luminara.training - INFO - Fold 4 accuracy: 0.9286
+2025-05-02 23:10:04,186 - luminara.training - INFO - Training fold 5/5
+2025-05-02 23:10:18,029 - luminara.training - INFO - Fold 5 accuracy: 0.9571
+2025-05-02 23:10:18,032 - luminara.training - INFO - Model training and evaluation completed successfully
